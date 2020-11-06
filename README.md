@@ -13,9 +13,6 @@ $ Docker-Compose up -d
 * たち上がったコンテナを確認<br>
 $ docker ps -a
 
-* DDLを流す ※permission deniedされたら権限変更 <br>
-$ ./init-mysql.sh
-
 * 起動したコンテナにログイン（コンテナ名は上記で確認したもの）<br>
 $ docker exec -it mysql_docker_mysql_1_a77835dbf309 bash -p
 
