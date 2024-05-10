@@ -14,7 +14,7 @@ $ Docker-Compose up -d
 $ docker ps -a
 
 * 起動したコンテナにログイン（コンテナ名は上記で確認したもの）<br>
-$ docker exec -it mysql_docker_mysql_1_a77835dbf309 bash -p
+$ docker exec -it mysql_docker bash -p
 
 * MySQLを起動<br>
 $ mysql -u root -proot -h 127.0.0.1
